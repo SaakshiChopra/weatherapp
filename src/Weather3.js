@@ -23,21 +23,21 @@ const Weather3 = () => {
     console.log(rid);
 
     if (rid >= 200 && rid <= 232) {
-      setIm("./images/th1.jpg");
+      setIm("images/th1.jpg");
     } else if (rid >= 300 && rid <= 321) {
-      setIm("./images/drizzle1.jpg");
+      setIm("images/drizzle1.jpg");
     } else if (rid >= 500 && rid <= 531) {
-      setIm("./images/rain1.jpg");
+      setIm("images/rain1.jpg");
     } else if (rid >= 600 && rid <= 622) {
-      setIm("./images/snow1.jpg");
+      setIm("images/snow1.jpg");
     } else if (rid >= 701 && rid <= 781) {
-      setIm("./images/m1.jpg");
+      setIm("images/m1.jpg");
     } else if (rid >= 801 && rid <= 804) {
-      setIm("./images/cloudy1.jpg");
+      setIm("images/cloudy1.jpg");
     } else if (rid == 800) {
-      setIm("./images/clear2.jpg");
+      setIm("images/clear2.jpg");
     } else {
-      setIm("./images/df1.jpg");
+      setIm("images/df1.jpg");
     }
   };
   const getWeather = (event) => {
